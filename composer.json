@@ -22,5 +22,8 @@
         "psr-4": {
             "Modules\\Migration\\": ""
         }
+    },
+    "require": {
+        "joshbrw/laravel-module-installer": "^0.1.4"
     }
 }
