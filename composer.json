@@ -1,0 +1,26 @@
+{
+    "name": "invoiceninja/migration",
+    "description": "Data and settings migration module to upgrade from V1 to V2 of Invoice Ninja",
+    "type": "laravel-module",
+    "authors": [
+        {
+            "name": "David Bomba",
+            "email": "turbo124@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Migration\\Providers\\MigrationServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Migration\\": ""
+        }
+    }
+}
